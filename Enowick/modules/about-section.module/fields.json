@@ -1,0 +1,99 @@
+[
+  {
+    "id": "subtitle",
+    "name": "subtitle",
+    "label": "Section Subtitle",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "about the agency"
+  },
+  {
+    "id": "small_description",
+    "name": "small_description",
+    "label": "Small Description / Quote",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Our team quickly understood our business requirements and were proactive and flexible with our ongoing support and complex developments."
+  },
+  {
+    "id": "button_text",
+    "name": "button_text",
+    "label": "Button Text",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "More About Us"
+  },
+  {
+    "id": "button_url",
+    "name": "button_url",
+    "label": "Button Link",
+    "required": false,
+    "locked": false,
+    "type": "link",
+    "default": {
+      "url": {
+        "content_id": null,
+        "type": "EXTERNAL",
+        "href": "/about"
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  },
+  {
+    "id": "small_image",
+    "name": "small_image",
+    "label": "Small Secondary Image",
+    "required": false,
+    "locked": false,
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "about image",
+      "loading": "lazy"
+    }
+  },
+  {
+    "id": "main_heading",
+    "name": "main_heading",
+    "label": "Main Heading",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "We are a dynamic digital agency, passionate about delivering innovative solutions that drive growth for modern brands."
+  },
+  {
+    "id": "featured_image",
+    "name": "featured_image",
+    "label": "Main Featured Image",
+    "required": false,
+    "locked": false,
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "about main image",
+      "loading": "lazy"
+    }
+  },
+  {
+    "id": "stat_number",
+    "name": "stat_number",
+    "label": "Stat Number",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "4K+"
+  },
+  {
+    "id": "stat_label",
+    "name": "stat_label",
+    "label": "Stat Label",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Worldwide Customers"
+  }
+]

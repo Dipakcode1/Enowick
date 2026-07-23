@@ -1,0 +1,123 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: FAQ
+  screenshotPath: ../images/template-previews/faq.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+
+<main>
+
+    <!-- Breadcumb Area Start -->
+    <section class="ew-breadcumb-area pt-160 pb-100" data-background="{{ get_asset_url('../images/breadcumb/bg.jpg') }}" style="background-image: url('{{ get_asset_url('../images/breadcumb/bg.jpg') }}');">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-breadcumb-box">
+                        <div class="ew-breadcumb-text">
+                            <h2>Faqs</h2>
+                            <span> Home <strong><i class="fa-sharp fa-regular fa-angles-right"></i> Faq</strong> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ew-breadcumb-shape">
+            <img src="{{ get_asset_url('../images/breadcumb/shape.png') }}" alt="shape">
+        </div>
+    </section>
+    <!-- Breadcumb Area End -->
+
+    <!-- FAQ area start -->
+    <section class="ew-faq-area pt-124 pb-124">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="ew-section-title pb-78">
+                        <span>questions</span>
+                        <h2 class="ew-text-revel-anim">Questions & <br class="d-none d-xxl-block"> Answers</h2>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="ew-faq-box">
+                        <div class="ew-faq-accordion-wrap">
+                            <div class="accordion" id="accordionExample1">
+                                <div class="accordion-items">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-buttons" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                            What Services Does Your Agency Offer?
+                                            <span class="accordion-icon"></span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <p>Identify the key barriers that prevent your business from reaching its full potential. Addressing these issues can transform your path to success.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-items">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                            How Long Does It Take To See Results?
+                                            <span class="accordion-icon"></span>
+                                        </button>
+                                    </h3>
+                                    <div id="collapseTwo2" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <p>Project completion timelines depend on complexity, ranging from 2 to 6 weeks for core design and launch.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-items">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                                            Do You Work With Businesses Of All Sizes?
+                                            <span class="accordion-icon"></span>
+                                        </button>
+                                    </h3>
+                                    <div id="collapseThree3" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <p>Yes, we partner with early-stage startups as well as established global brands.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-items">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
+                                            What Industries Do You Specialize In?
+                                            <span class="accordion-icon"></span>
+                                        </button>
+                                    </h3>
+                                    <div id="collapseFour4" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <p>We work across Tech, SaaS, E-Commerce, Healthcare, Real Estate, and Creative Agency verticals.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-items">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5">
+                                            What do I need to give you to get started?
+                                            <span class="accordion-icon"></span>
+                                        </button>
+                                    </h3>
+                                    <div id="collapseFive5" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <p>Send us your brand guidelines, project goals, and target audience overview to initiate discovery.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ area end -->
+
+</main>
+
+{% endblock body %}

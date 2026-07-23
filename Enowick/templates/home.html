@@ -1,0 +1,380 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Home
+  screenshotPath: ../images/template-previews/home.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+
+<main>
+
+    <!-- Hero 3 Area start -->
+    {% module "hero_banner"
+      path="../modules/hero-banner",
+      label="Hero Banner"
+    %}
+    <!-- Hero 3 Area end -->
+
+    <!-- Brand 2 area start -->
+    {% module "brand_logos"
+      path="../modules/brand-logos",
+      label="Brand Logos"
+    %}
+    <!-- Brand 2 area end -->
+
+    <!-- About 2 area start -->
+    {% module "about_section"
+      path="../modules/about-section",
+      label="About Section"
+    %}
+    <!-- About 2 area end -->
+
+    <!-- Service 2 area start -->
+    <section class="ew-service-2-area pb-70 pt-124">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-service-2-main pb-20">
+                        <div class="ew-section-title">
+                            <span>our service</span>
+                            <h2 class="ew-text-revel-anim">We Build Your Digital <br class="d-none d-xxl-block"> Business.</h2>
+                        </div>
+                        <div class="ew-service-2-btn">
+                            <a class="ew-btn-one black-bg-btn border-btn" href="/service"> <span class="btn-text"> <span> View Services</span> </span> <span class="btn-icon btn-icon2"><i class="fa-regular fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="ew-service-2-box">
+                        <div class="ew-service-2-text">
+                            <span>001</span>
+                            <h3><a href="/service">Web Design</a></h3>
+                        </div>
+                        <div class="ew-service-2-p">
+                            <p>We are a digital agency that helps businesses develop immersive and engaging user experiences that drive top level growth.</p>
+                        </div>
+                    </div>
+                    <div class="ew-service-2-box">
+                        <div class="ew-service-2-p service-2-left">
+                            <p>Designing user-centric interfaces and seamless user experiences that convert visitors into loyal customers.</p>
+                        </div>
+                        <div class="ew-service-2-text service-2-right">
+                            <span>002</span>
+                            <h3><a href="/service">UI/UX Design</a></h3>
+                        </div>
+                    </div>
+                    <div class="ew-service-2-box">
+                        <div class="ew-service-2-text">
+                            <span>003</span>
+                            <h3><a href="/service">Digital Marketing</a></h3>
+                        </div>
+                        <div class="ew-service-2-p">
+                            <p>Data-driven marketing campaigns tailored to expand reach, engage audiences, and maximize ROI.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service 2 area end -->
+
+    <!-- Project 2 area start -->
+    <section class="ew-project-2-area pt-130 pb-130">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-project-2-title-box pb-40 text-left p-relative">
+                        <h1>Latest Projects</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="ew-project-2-box">
+                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
+                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img4.jpg') }}" alt="project"></a>
+                        </div>
+                        <div class="ew-project-2-text">
+                            <h2><a class="underline-black" href="/portfolio">Brand Refresh for UrbanSpace</a></h2>
+                            <span>Tagline Creation</span>
+                            <span>Web design</span>
+                            <span>Unique Visual Identity</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ew-project-2-box project-2-top">
+                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
+                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img5.jpg') }}" alt="project"></a>
+                        </div>
+                        <div class="ew-project-2-text">
+                            <h2><a class="underline-black" href="/portfolio">New Look for Apex Fitness</a></h2>
+                            <span>Tagline Creation</span>
+                            <span>Web design</span>
+                            <span>Unique Visual Identity</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ew-project-2-box">
+                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
+                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img6.jpg') }}" alt="project"></a>
+                        </div>
+                        <div class="ew-project-2-text">
+                            <h2><a class="underline-black" href="/portfolio">Digital Revamp for Luxe Living</a></h2>
+                            <span>Tagline Creation</span>
+                            <span>Web design</span>
+                            <span>Unique Visual Identity</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ew-project-2-box project-2-top">
+                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
+                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img7.jpg') }}" alt="project"></a>
+                        </div>
+                        <div class="ew-project-2-text">
+                            <h2><a class="underline-black" href="/portfolio">Kinetic Sandscapes</a></h2>
+                            <span>Tagline Creation</span>
+                            <span>Web design</span>
+                            <span>Unique Visual Identity</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="ew-project-2-btn">
+                        <a class="ew-btn-one" href="/portfolio"> <span class="btn-text"> <span>Explore more</span> </span> <span class="btn-icon"><i class="fa-regular fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project 2 area end -->
+
+    <!-- Team area start -->
+    <section class="ew-team-area pt-124 pb-130">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-section-title text-center pb-40">
+                        <span>Who We Are</span>
+                        <h2 class="ew-text-revel-anim">Creative Team Members</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 col-xxl-3">
+                    <div class="ew-team-box team-bottom">
+                        <div class="ew-team-thumb">
+                            <img src="{{ get_asset_url('../images/team/team1.jpg') }}" alt="team">
+                            <div class="ew-team-text">
+                                <div class="ew-team-text-inner">
+                                    <h3>Abu Talha</h3>
+                                    <span>Web Developer</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 col-xxl-3">
+                    <div class="ew-team-box team-bottom">
+                        <div class="ew-team-thumb">
+                            <img src="{{ get_asset_url('../images/team/team2.jpg') }}" alt="team">
+                            <div class="ew-team-text">
+                                <div class="ew-team-text-inner">
+                                    <h3>Jinnira Alam</h3>
+                                    <span>UI/UX Designer</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 col-xxl-3">
+                    <div class="ew-team-box team-bottom2">
+                        <div class="ew-team-thumb">
+                            <img src="{{ get_asset_url('../images/team/team3.jpg') }}" alt="team">
+                            <div class="ew-team-text">
+                                <div class="ew-team-text-inner">
+                                    <h3>Saad Alam</h3>
+                                    <span>Lead Developer</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 col-xxl-3">
+                    <div class="ew-team-box team-bottom2">
+                        <div class="ew-team-thumb">
+                            <img src="{{ get_asset_url('../images/team/team4.jpg') }}" alt="team">
+                            <div class="ew-team-text">
+                                <div class="ew-team-text-inner">
+                                    <h3>Shirin Sultana</h3>
+                                    <span>Creative Director</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team area end -->
+
+    <!-- Testimonial 2 area start -->
+    <section class="ew-testimonial-2-area pt-124 pb-124" data-background="{{ get_asset_url('../images/testimonial/bg.jpg') }}" style="background-image: url('{{ get_asset_url('../images/testimonial/bg.jpg') }}');">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="ew-testimonial-slider-wrap">
+                        <div class="swiper ew-testimonial-bottom-thumb-active">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="{{ get_asset_url('../images/testimonial/t1.png') }}" alt="testimonial">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ get_asset_url('../images/testimonial/t2.png') }}" alt="testimonial">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="{{ get_asset_url('../images/testimonial/t3.png') }}" alt="testimonial">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="ew-section-title ew-white pb-40">
+                        <span>Testimonial</span>
+                        <h2 class="ew-text-revel-anim">Client Feedback</h2>
+                    </div>
+                    <div class="swiper ew-testimonial-content-active">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="ew-testimonial-2-text">
+                                    <p>"Averix exceeded our expectations, delivering a stunning design that truly reflects our brand's essence. Their creativity and professionalism made a lasting impact."</p>
+                                </div>
+                                <div class="ew-testimonial-2-main">
+                                    <div class="ew-testimonial-2-title">
+                                        <h3>Saima Shirin</h3>
+                                        <span>Senior Marketing Manager</span>
+                                    </div>
+                                    <div class="ew-testimonial-2-shape">
+                                        <img src="{{ get_asset_url('../images/testimonial/shape.png') }}" alt="shape">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ew-testimonial-2-text">
+                                    <p>"Working with Averix was a seamless experience. They transformed our vision into an engaging digital platform that doubled our user engagement."</p>
+                                </div>
+                                <div class="ew-testimonial-2-main">
+                                    <div class="ew-testimonial-2-title">
+                                        <h3>Abu Talha</h3>
+                                        <span>Product Owner</span>
+                                    </div>
+                                    <div class="ew-testimonial-2-shape">
+                                        <img src="{{ get_asset_url('../images/testimonial/shape.png') }}" alt="shape">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial 2 area end -->
+
+    <!-- Blog 2 area start -->
+    <section class="ew-blog-2-area pt-124 pb-124">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-blog-2-main">
+                        <div class="ew-section-title pb-20">
+                            <span>Who We Are</span>
+                            <h2 class="ew-text-revel-anim">Recent News & Updates</h2>
+                        </div>
+                        <div class="ew-blog-2-btn">
+                            <a class="ew-btn-one black-bg-btn border-btn" href="/blog"> <span class="btn-text"> <span> Our Blog</span> </span> <span class="btn-icon btn-icon2"><i class="fa-regular fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="ew-blog-2-box">
+                        <div class="ew-blog-2-text">
+                            <span class="blog-2-border">Insight</span>
+                            <span>5 minute</span>
+                            <h3><a class="underline-black" href="/blog">Averix Powers Smarter Work With AI</a></h3>
+                            <span class="project-dot2">Saad Alam</span>
+                            <span>March 24 2026</span>
+                        </div>
+                        <div class="ew-blog-2-thumb">
+                            <img src="{{ get_asset_url('../images/blog/blog6.jpg') }}" alt="blog">
+                        </div>
+                        <div class="ew-blog-2-p">
+                            <p>We are a digital agency that helps businesses develop immersive and engaging user experiences to drive top level growth.</p>
+                        </div>
+                    </div>
+                    <div class="ew-blog-2-box">
+                        <div class="ew-blog-2-text">
+                            <span class="blog-2-border">Insight</span>
+                            <span>5 minute</span>
+                            <h3><a class="underline-black" href="/blog">Must-know Digital Trends For Businesses</a></h3>
+                            <span class="project-dot2">Saad Alam</span>
+                            <span>March 24 2026</span>
+                        </div>
+                        <div class="ew-blog-2-thumb">
+                            <img src="{{ get_asset_url('../images/blog/blog7.jpg') }}" alt="blog">
+                        </div>
+                        <div class="ew-blog-2-p">
+                            <p>Discover the leading digital marketing strategies and visual trends defining the creative landscape this year.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog 2 area end -->
+
+    <!-- Video area Start -->
+    <div class="ew-video-area" data-background="{{ get_asset_url('../images/video/bg.jpg') }}" style="background-image: url('{{ get_asset_url('../images/video/bg.jpg') }}');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-video-icon">
+                        <div class="ew-video-icon-inner">
+                            <a class="popup-video ew-about-playbtn" href="https://www.youtube.com/watch?v=MLpWrANjFbI"><i class="fa-solid fa-play"></i></a>
+                            <div class="ew-video-shape">
+                                <img class="rotate2" src="{{ get_asset_url('../images/video/shape.png') }}" alt="play">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video area End -->
+
+</main>
+
+{% endblock body %}

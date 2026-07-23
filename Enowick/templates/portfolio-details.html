@@ -1,0 +1,138 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Portfolio Details
+  screenshotPath: ../images/template-previews/portfolio-details.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+
+<main>
+
+    <!-- Breadcumb Area Start -->
+    <section class="ew-breadcumb-area pt-160 pb-100" data-background="{{ get_asset_url('../images/breadcumb/bg.jpg') }}" style="background-image: url('{{ get_asset_url('../images/breadcumb/bg.jpg') }}');">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-breadcumb-box">
+                        <div class="ew-breadcumb-text">
+                            <h2>Portfolio Details</h2>
+                            <span> Home <strong><i class="fa-sharp fa-regular fa-angles-right"></i> Portfolio Details</strong> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ew-breadcumb-shape">
+            <img src="{{ get_asset_url('../images/breadcumb/shape.png') }}" alt="shape">
+        </div>
+    </section>
+    <!-- Breadcumb Area End -->
+
+    <!-- Portfolio Details Area Start -->
+    <section class="ew-portfolio-details-area pt-130 pb-130">
+        <div class="container container-1617">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ew-portfolio-details-thumb">
+                        <img src="{{ get_asset_url('../images/portfolio-details/portfolio-d-1.jpg') }}" alt="portfolio details">
+                    </div>
+                </div>
+                <div class="col-lg-8 p-0">
+                    <div class="ew-portfolio-details-main">
+                        <div class="ew-portfolio-details-text">
+                            <h1>Project Overview</h1>
+                            <p>As we reflect on this achievement, we look forward to continuing our journey in digital innovation, transformative solutions, and shaping the future of the digital landscape. Celebrating a major milestone in digital services is a significant occasion.</p>
+                        </div>
+                        <div class="ew-portfolio-details-img">
+                            <ul>
+                                <li><img src="{{ get_asset_url('../images/portfolio-details/portfolio-d-2.jpg') }}" alt="project image 1"></li>
+                                <li class="ew-portfolio-details-mt"><img src="{{ get_asset_url('../images/portfolio-details/portfolio-d-3.jpg') }}" alt="project image 2"></li>
+                                <li class="ew-portfolio-details-mt2"><img src="{{ get_asset_url('../images/portfolio-details/portfolio-d-4.jpg') }}" alt="project image 3"></li>
+                            </ul>
+                        </div>
+                        <div class="ew-portfolio-details-text2">
+                            <h2>Challenge & Solution</h2>
+                            <p>When creating a detailed case study, it is important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.</p>
+                        </div>
+                        <div class="ew-portfolio-details-text2 portfolio-details-text">
+                            <h2>Final Result</h2>
+                            <p>Our team successfully launched the platform with optimized load times, enhanced mobile responsiveness, and clean UI design system integration.</p>
+                        </div>
+                        <div class="ew-portfolio-details-main2">
+                            <div class="ew-portfolio-details-prev">
+                                <a href="/portfolio"><i class="fa-sharp fa-regular fa-arrow-left"></i> Prev Work</a>
+                            </div>
+                            <div class="ew-portfolio-details-next">
+                                <a href="/portfolio">Next Work <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ew-portfolio-details-box">
+                        <div class="ew-portfolio-details-title">
+                            <h3>Project Information</h3>
+                        </div>
+                        <div class="ew-portfolio-details-right">
+                            <div class="ew-portfolio-details-list">
+                                <ul>
+                                    <li><a href="#">Category:</a></li>
+                                    <li><a href="#">Software:</a></li>
+                                    <li><a href="#">Service:</a></li>
+                                    <li><a href="#">Client:</a></li>
+                                    <li><a href="#">Date:</a></li>
+                                </ul>
+                            </div>
+                            <div class="ew-portfolio-details-text3">
+                                <span>Development</span>
+                                <span>HTML, Figma</span>
+                                <span>UI/UX Design</span>
+                                <span>Eunice Mills</span>
+                                <span>Feb 6, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ew-portfolio-details-box2 mt-30">
+                        <div class="ew-portfolio-details-title2">
+                            <h3>Need Help?</h3>
+                            <p>Feel free to reach out anytime to discuss your project</p>
+                        </div>
+                        <div class="ew-portfolio-details-right2">
+                            <div class="ew-portfolio-details-icon2">
+                                <a href="#"><img src="{{ get_asset_url('../images/portfolio-details/portfolio-d-9.svg') }}" alt="location"></a>
+                            </div>
+                            <div class="ew-portfolio-details-text4">
+                                <h4>Office Address</h4>
+                                <p>629 Elgin St. Celina, 2202</p>
+                            </div>
+                        </div>
+                        <div class="ew-portfolio-details-right2">
+                            <div class="ew-portfolio-details-icon2">
+                                <a href="#"><img src="{{ get_asset_url('../images/portfolio-details/portfolio-d-10.svg') }}" alt="phone"></a>
+                            </div>
+                            <div class="ew-portfolio-details-text4">
+                                <h4>Call Us For Support</h4>
+                                <p>+880 1643-837728</p>
+                            </div>
+                        </div>
+                        <div class="ew-portfolio-details-right2">
+                            <div class="ew-portfolio-details-icon2">
+                                <a href="#"><img src="{{ get_asset_url('../images/portfolio-details/portfolio-d-11.svg') }}" alt="email"></a>
+                            </div>
+                            <div class="ew-portfolio-details-text4">
+                                <h4>Email Us Anytime</h4>
+                                <p>info@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Details Area End -->
+
+</main>
+
+{% endblock body %}
