@@ -1,0 +1,135 @@
+[
+  {
+    "id": "subtitle",
+    "name": "subtitle",
+    "label": "Section Subtitle",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "our service"
+  },
+  {
+    "id": "heading",
+    "name": "heading",
+    "label": "Section Heading",
+    "required": false,
+    "locked": false,
+    "type": "richtext",
+    "default": "We Build Your Digital <br class=\"d-none d-xxl-block\"> Business."
+  },
+  {
+    "id": "button_text",
+    "name": "button_text",
+    "label": "Button Text",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "View Services"
+  },
+  {
+    "id": "button_url",
+    "name": "button_url",
+    "label": "Button Link",
+    "required": false,
+    "locked": false,
+    "type": "link",
+    "default": {
+      "url": {
+        "content_id": null,
+        "type": "EXTERNAL",
+        "href": "/service"
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  },
+  {
+    "id": "services",
+    "name": "services",
+    "label": "Service Items",
+    "required": false,
+    "locked": false,
+    "occurrence": {
+      "min": 1,
+      "max": 20,
+      "sorting_label_format": "Service: {{ title }}"
+    },
+    "type": "group",
+    "children": [
+      {
+        "id": "number",
+        "name": "number",
+        "label": "Service Number / Code",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "001"
+      },
+      {
+        "id": "title",
+        "name": "title",
+        "label": "Service Title",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Web Design"
+      },
+      {
+        "id": "description",
+        "name": "description",
+        "label": "Service Description",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "We are a digital agency that helps businesses develop immersive and engaging user experiences that drive top level growth."
+      },
+      {
+        "id": "link_url",
+        "name": "link_url",
+        "label": "Service Link",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "/service"
+          }
+        }
+      }
+    ],
+    "default": [
+      {
+        "number": "001",
+        "title": "Web Design",
+        "description": "We are a digital agency that helps businesses develop immersive and engaging user experiences that drive top level growth.",
+        "link_url": {
+          "url": {
+            "href": "/service"
+          }
+        }
+      },
+      {
+        "number": "002",
+        "title": "UI/UX Design",
+        "description": "Designing user-centric interfaces and seamless user experiences that convert visitors into loyal customers.",
+        "link_url": {
+          "url": {
+            "href": "/service"
+          }
+        }
+      },
+      {
+        "number": "003",
+        "title": "Digital Marketing",
+        "description": "Data-driven marketing campaigns tailored to expand reach, engage audiences, and maximize ROI.",
+        "link_url": {
+          "url": {
+            "href": "/service"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,5 +1,18 @@
 [
   {
+    "id": "style_variant",
+    "name": "style_variant",
+    "label": "Style / Background Variant",
+    "required": false,
+    "locked": false,
+    "type": "choice",
+    "choices": [
+      [ "dark_bg", "Dark Background (Home Style)" ],
+      [ "light_bg", "Light Background (About Style)" ]
+    ],
+    "default": "dark_bg"
+  },
+  {
     "id": "brands",
     "name": "brands",
     "label": "Brand Logos",

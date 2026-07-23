@@ -73,34 +73,11 @@
     <!-- About area end -->
 
     <!-- Brand area start -->
-    <div class="ew-brand-area pb-130">
-        <div class="container container-1617">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ew-brand-wrappere">
-                        <div class="ew-brand-box">
-                            <img src="{{ get_asset_url('../images/brand/brand.png') }}" alt="brand">
-                        </div>
-                        <div class="ew-brand-box">
-                            <img src="{{ get_asset_url('../images/brand/brand2.png') }}" alt="brand">
-                        </div>
-                        <div class="ew-brand-box">
-                            <img src="{{ get_asset_url('../images/brand/brand3.png') }}" alt="brand">
-                        </div>
-                        <div class="ew-brand-box">
-                            <img src="{{ get_asset_url('../images/brand/brand4.png') }}" alt="brand">
-                        </div>
-                        <div class="ew-brand-box">
-                            <img src="{{ get_asset_url('../images/brand/brand5.png') }}" alt="brand">
-                        </div>
-                        <div class="ew-brand-box">
-                            <img src="{{ get_asset_url('../images/brand/brand6.png') }}" alt="brand">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% module "brand_logos"
+      path="../modules/brand-logos",
+      label="Brand Logos",
+      style_variant="light_bg"
+    %}
     <!-- Brand area end -->
 
     <!-- Video area Start -->
