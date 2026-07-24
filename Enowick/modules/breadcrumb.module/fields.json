@@ -1,0 +1,29 @@
+[
+  {
+    "id": "title",
+    "name": "title",
+    "label": "Banner Title",
+    "type": "text",
+    "default": "Service Details"
+  },
+  {
+    "id": "background_image",
+    "name": "background_image",
+    "label": "Background Image",
+    "type": "image"
+  },
+  {
+    "id": "parent_page_title",
+    "name": "parent_page_title",
+    "label": "Parent Page Title",
+    "type": "text",
+    "default": "Home"
+  },
+  {
+    "id": "current_page_title",
+    "name": "current_page_title",
+    "label": "Current Page Title",
+    "type": "text",
+    "default": "Service Details"
+  }
+]

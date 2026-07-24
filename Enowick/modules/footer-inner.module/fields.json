@@ -1,0 +1,107 @@
+[
+  {
+    "id": "heading",
+    "name": "heading",
+    "label": "Footer Heading",
+    "type": "text",
+    "default": "Let's Work Together"
+  },
+  {
+    "id": "description",
+    "name": "description",
+    "label": "Footer Description",
+    "type": "text",
+    "default": "Avanta team quickly understood our business requirements and were proactive and flexible with our ongoing support and developments."
+  },
+  {
+    "id": "background_image",
+    "name": "background_image",
+    "label": "Background Image",
+    "type": "image"
+  },
+  {
+    "id": "logo",
+    "name": "logo",
+    "label": "Footer Logo (White)",
+    "type": "image"
+  },
+  {
+    "id": "logo_tagline",
+    "name": "logo_tagline",
+    "label": "Logo Tagline",
+    "type": "text",
+    "default": "Creative design agency specializes In Innovative visual solutions"
+  },
+  {
+    "id": "email_address",
+    "name": "email_address",
+    "label": "Contact Email",
+    "type": "text",
+    "default": "Info@example.com"
+  },
+  {
+    "id": "phone_number",
+    "name": "phone_number",
+    "label": "Phone Number",
+    "type": "text",
+    "default": "888 456 7890"
+  },
+  {
+    "id": "location_address",
+    "name": "location_address",
+    "label": "Location Address",
+    "type": "text",
+    "default": "410 Sandtown, California 94001, USA"
+  },
+  {
+    "id": "menu",
+    "name": "menu",
+    "label": "Quick Links Menu",
+    "type": "menu"
+  },
+  {
+    "id": "support_menu",
+    "name": "support_menu",
+    "label": "Support Menu",
+    "type": "menu"
+  },
+  {
+    "id": "copyright_text",
+    "name": "copyright_text",
+    "label": "Copyright Text",
+    "type": "text",
+    "default": "All rights reserved — 2026 © Averix"
+  },
+  {
+    "id": "social_links",
+    "name": "social_links",
+    "label": "Social Media Links",
+    "type": "group",
+    "children": [
+      {
+        "id": "platform_name",
+        "name": "platform_name",
+        "label": "Platform Name (e.g. twitter, instagram, linkedin, pinterest, behance)",
+        "type": "text"
+      },
+      {
+        "id": "social_link_url",
+        "name": "social_link_url",
+        "label": "Link URL",
+        "type": "link"
+      }
+    ],
+    "occurrence": {
+      "min": 0,
+      "max": null,
+      "default": 5
+    },
+    "default": [
+      { "platform_name": "twitter", "social_link_url": { "url": { "href": "#" } } },
+      { "platform_name": "instagram", "social_link_url": { "url": { "href": "#" } } },
+      { "platform_name": "linkedin", "social_link_url": { "url": { "href": "#" } } },
+      { "platform_name": "pinterest", "social_link_url": { "url": { "href": "#" } } },
+      { "platform_name": "behance", "social_link_url": { "url": { "href": "#" } } }
+    ]
+  }
+]
