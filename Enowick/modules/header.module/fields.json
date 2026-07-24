@@ -1,0 +1,144 @@
+[
+  {
+    "id": "header_logo_image",
+    "name": "logo_image",
+    "label": "Header Logo Image",
+    "required": false,
+    "locked": false,
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "logo",
+      "loading": "lazy"
+    }
+  },
+  {
+    "id": "header_logo_url",
+    "name": "logo_url",
+    "label": "Logo Link URL",
+    "required": false,
+    "locked": false,
+    "type": "link",
+    "default": {
+      "url": {
+        "content_id": null,
+        "type": "EXTERNAL",
+        "href": "/"
+      }
+    }
+  },
+  {
+    "id": "header_menu",
+    "name": "menu",
+    "label": "Navigation Menu",
+    "required": false,
+    "locked": false,
+    "type": "menu",
+    "default": "default"
+  },
+  {
+    "id": "show_search",
+    "name": "show_search",
+    "label": "Show Search Button",
+    "required": false,
+    "locked": false,
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "id": "offcanvas_logo_dark",
+    "name": "offcanvas_logo_dark",
+    "label": "Offcanvas Dark Logo",
+    "required": false,
+    "locked": false,
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "logo",
+      "loading": "lazy"
+    }
+  },
+  {
+    "id": "offcanvas_logo_light",
+    "name": "offcanvas_logo_light",
+    "label": "Offcanvas Light Logo",
+    "required": false,
+    "locked": false,
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "logo",
+      "loading": "lazy"
+    }
+  },
+  {
+    "id": "offcanvas_title",
+    "name": "offcanvas_title",
+    "label": "Offcanvas About Title",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "About Us"
+  },
+  {
+    "id": "offcanvas_text",
+    "name": "offcanvas_text",
+    "label": "Offcanvas About Description",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "We are digital agency that helps businesses develop immersive experiences."
+  },
+  {
+    "id": "offcanvas_phone",
+    "name": "offcanvas_phone",
+    "label": "Offcanvas Phone Number",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "+880 1643-837728"
+  },
+  {
+    "id": "offcanvas_email",
+    "name": "offcanvas_email",
+    "label": "Offcanvas Email Address",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "info@example.com"
+  },
+  {
+    "id": "gallery_images",
+    "name": "gallery_images",
+    "label": "Offcanvas Gallery Images",
+    "required": false,
+    "locked": false,
+    "occurrence": {
+      "min": 0,
+      "max": 8,
+      "sorting_label_format": "Image"
+    },
+    "type": "group",
+    "children": [
+      {
+        "id": "offcanvas_gallery_img",
+        "name": "gallery_img",
+        "label": "Gallery Image",
+        "required": false,
+        "locked": false,
+        "type": "image",
+        "default": {
+          "src": "",
+          "alt": "gallery image",
+          "loading": "lazy"
+        }
+      }
+    ],
+    "default": [
+      { "gallery_img": { "src": "", "alt": "image 1" } },
+      { "gallery_img": { "src": "", "alt": "image 2" } },
+      { "gallery_img": { "src": "", "alt": "image 3" } },
+      { "gallery_img": { "src": "", "alt": "image 4" } }
+    ]
+  }
+]

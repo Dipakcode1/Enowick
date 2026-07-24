@@ -39,78 +39,10 @@
     <!-- Service 2 area end -->
 
     <!-- Project 2 area start -->
-    <section class="ew-project-2-area pt-130 pb-130">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ew-project-2-title-box pb-40 text-left p-relative">
-                        <h1>Latest Projects</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container container-1617">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="ew-project-2-box">
-                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
-                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img4.jpg') }}" alt="project"></a>
-                        </div>
-                        <div class="ew-project-2-text">
-                            <h2><a class="underline-black" href="/portfolio">Brand Refresh for UrbanSpace</a></h2>
-                            <span>Tagline Creation</span>
-                            <span>Web design</span>
-                            <span>Unique Visual Identity</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="ew-project-2-box project-2-top">
-                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
-                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img5.jpg') }}" alt="project"></a>
-                        </div>
-                        <div class="ew-project-2-text">
-                            <h2><a class="underline-black" href="/portfolio">New Look for Apex Fitness</a></h2>
-                            <span>Tagline Creation</span>
-                            <span>Web design</span>
-                            <span>Unique Visual Identity</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="ew-project-2-box">
-                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
-                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img6.jpg') }}" alt="project"></a>
-                        </div>
-                        <div class="ew-project-2-text">
-                            <h2><a class="underline-black" href="/portfolio">Digital Revamp for Luxe Living</a></h2>
-                            <span>Tagline Creation</span>
-                            <span>Web design</span>
-                            <span>Unique Visual Identity</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="ew-project-2-box project-2-top">
-                        <div class="ew-project-2-thumb ew-portfolio-thumb-height3 si_fade_anim fix not-hide-cursor" data-cursor="View<br>Demo">
-                            <a class="cursor-hide img-cover" href="/portfolio"><img data-speed=".8" src="{{ get_asset_url('../images/project/img7.jpg') }}" alt="project"></a>
-                        </div>
-                        <div class="ew-project-2-text">
-                            <h2><a class="underline-black" href="/portfolio">Kinetic Sandscapes</a></h2>
-                            <span>Tagline Creation</span>
-                            <span>Web design</span>
-                            <span>Unique Visual Identity</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="ew-project-2-btn">
-                        <a class="ew-btn-one" href="/portfolio"> <span class="btn-text"> <span>Explore more</span> </span> <span class="btn-icon"><i class="fa-regular fa-arrow-right"></i></span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    {% module "project_section"
+      path="../modules/project-section",
+      label="Project Section"
+    %}
     <!-- Project 2 area end -->
 
     <!-- Team area start -->
@@ -333,7 +265,7 @@
             </div>
         </div>
     </div>
-    <!-- Video area End -->
+    <!-- Video area  End -->
 
 </main>
 

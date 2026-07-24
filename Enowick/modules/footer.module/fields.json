@@ -1,0 +1,219 @@
+[
+  {
+    "id": "menu",
+    "name": "menu",
+    "label": "Navigation Menu",
+    "required": false,
+    "locked": false,
+    "type": "menu",
+    "default": "default"
+  },
+  {
+    "id": "phone_number",
+    "name": "phone_number",
+    "label": "Phone Number",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "+880 1643-837728"
+  },
+  {
+    "id": "email_address",
+    "name": "email_address",
+    "label": "Email Address",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "info@example.com"
+  },
+  {
+    "id": "newsletter_heading",
+    "name": "newsletter_heading",
+    "label": "Newsletter Heading",
+    "required": false,
+    "locked": false,
+    "type": "richtext",
+    "default": "Get the Latest <br class=\"d-none d-xxl-block\"> Updates"
+  },
+  {
+    "id": "newsletter_text",
+    "name": "newsletter_text",
+    "label": "Newsletter Description",
+    "required": false,
+    "locked": false,
+    "type": "richtext",
+    "default": "We are digital agency that helps businesses <br class=\"d-none d-xxl-block\"> develop immersive experiences."
+  },
+  {
+    "id": "social_links",
+    "name": "social_links",
+    "label": "Social Media Links",
+    "required": false,
+    "locked": false,
+    "occurrence": {
+      "min": 0,
+      "max": 10,
+      "sorting_label_format": "Social: {{ platform_name }}"
+    },
+    "type": "group",
+    "children": [
+      {
+        "id": "social_platform_name",
+        "name": "platform_name",
+        "label": "Platform Name",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Facebook"
+      },
+      {
+        "id": "social_link_url",
+        "name": "social_link_url",
+        "label": "Link URL",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        }
+      }
+    ],
+    "default": [
+      {
+        "platform_name": "Facebook",
+        "social_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      },
+      {
+        "platform_name": "Twitter",
+        "social_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      },
+      {
+        "platform_name": "Instagram",
+        "social_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      },
+      {
+        "platform_name": "Linkedin",
+        "social_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      },
+      {
+        "platform_name": "Dribbble",
+        "social_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      },
+      {
+        "platform_name": "Behance",
+        "social_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "copyright_text",
+    "name": "copyright_text",
+    "label": "Copyright Text",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "All rights reserved — {{ year }} © Averix"
+  },
+  {
+    "id": "legal_menu",
+    "name": "legal_menu",
+    "label": "Legal / Footer Bottom Menu",
+    "required": false,
+    "locked": false,
+    "type": "menu",
+    "default": null
+  },
+  {
+    "id": "legal_links",
+    "name": "legal_links",
+    "label": "Legal Links (Fallback if no Legal Menu selected)",
+    "required": false,
+    "locked": false,
+    "occurrence": {
+      "min": 0,
+      "max": 10,
+      "sorting_label_format": "Legal Link: {{ link_text }}"
+    },
+    "type": "group",
+    "children": [
+      {
+        "id": "legal_link_text",
+        "name": "link_text",
+        "label": "Link Text",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Privacy Policy"
+      },
+      {
+        "id": "legal_link_url",
+        "name": "legal_link_url",
+        "label": "Link URL",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        }
+      }
+    ],
+    "default": [
+      {
+        "link_text": "Privacy Policy",
+        "legal_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      },
+      {
+        "link_text": "Cookie Policy",
+        "legal_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      },
+      {
+        "link_text": "Terms and Conditions",
+        "legal_link_url": {
+          "url": {
+            "href": "#"
+          }
+        }
+      }
+    ]
+  }
+]

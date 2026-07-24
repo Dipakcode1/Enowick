@@ -1,0 +1,190 @@
+[
+  {
+    "id": "heading",
+    "name": "heading",
+    "label": "Section Heading",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Latest Projects"
+  },
+  {
+    "id": "button_text",
+    "name": "button_text",
+    "label": "Button Text",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Explore more"
+  },
+  {
+    "id": "button_url",
+    "name": "button_url",
+    "label": "Button Link",
+    "required": false,
+    "locked": false,
+    "type": "link",
+    "default": {
+      "url": {
+        "content_id": null,
+        "type": "EXTERNAL",
+        "href": "/portfolio"
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  },
+  {
+    "id": "projects",
+    "name": "projects",
+    "label": "Project Items",
+    "required": false,
+    "locked": false,
+    "occurrence": {
+      "min": 1,
+      "max": 20,
+      "sorting_label_format": "Project: {{ title }}"
+    },
+    "type": "group",
+    "children": [
+      {
+        "id": "title",
+        "name": "title",
+        "label": "Project Title",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Brand Refresh for UrbanSpace"
+      },
+      {
+        "id": "image",
+        "name": "image",
+        "label": "Project Image",
+        "required": false,
+        "locked": false,
+        "type": "image",
+        "default": {
+          "src": "",
+          "alt": "project",
+          "loading": "lazy"
+        }
+      },
+      {
+        "id": "link_url",
+        "name": "link_url",
+        "label": "Project Link",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "/portfolio"
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "tags",
+        "name": "tags",
+        "label": "Project Tags",
+        "required": false,
+        "locked": false,
+        "occurrence": {
+          "min": 0,
+          "max": 10,
+          "sorting_label_format": "Tag: {{ tag_text }}"
+        },
+        "type": "group",
+        "children": [
+          {
+            "id": "tag_text",
+            "name": "tag_text",
+            "label": "Tag Text",
+            "required": false,
+            "locked": false,
+            "type": "text",
+            "default": "Tagline Creation"
+          }
+        ],
+        "default": [
+          { "tag_text": "Tagline Creation" },
+          { "tag_text": "Web design" },
+          { "tag_text": "Unique Visual Identity" }
+        ]
+      }
+    ],
+    "default": [
+      {
+        "title": "Brand Refresh for UrbanSpace",
+        "image": {
+          "src": "",
+          "alt": "project"
+        },
+        "link_url": {
+          "url": {
+            "href": "/portfolio"
+          }
+        },
+        "tags": [
+          { "tag_text": "Tagline Creation" },
+          { "tag_text": "Web design" },
+          { "tag_text": "Unique Visual Identity" }
+        ]
+      },
+      {
+        "title": "New Look for Apex Fitness",
+        "image": {
+          "src": "",
+          "alt": "project"
+        },
+        "link_url": {
+          "url": {
+            "href": "/portfolio"
+          }
+        },
+        "tags": [
+          { "tag_text": "Tagline Creation" },
+          { "tag_text": "Web design" },
+          { "tag_text": "Unique Visual Identity" }
+        ]
+      },
+      {
+        "title": "Digital Revamp for Luxe Living",
+        "image": {
+          "src": "",
+          "alt": "project"
+        },
+        "link_url": {
+          "url": {
+            "href": "/portfolio"
+          }
+        },
+        "tags": [
+          { "tag_text": "Tagline Creation" },
+          { "tag_text": "Web design" },
+          { "tag_text": "Unique Visual Identity" }
+        ]
+      },
+      {
+        "title": "Kinetic Sandscapes",
+        "image": {
+          "src": "",
+          "alt": "project"
+        },
+        "link_url": {
+          "url": {
+            "href": "/portfolio"
+          }
+        },
+        "tags": [
+          { "tag_text": "Tagline Creation" },
+          { "tag_text": "Web design" },
+          { "tag_text": "Unique Visual Identity" }
+        ]
+      }
+    ]
+  }
+]
