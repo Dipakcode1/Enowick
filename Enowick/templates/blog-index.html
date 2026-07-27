@@ -12,25 +12,8 @@ dipak
  #}
 <main>
 
-    <!-- Breadcumb Area Start -->
-    <section class="ew-breadcumb-area pt-160 pb-100" data-background="{{ get_asset_url('../images/breadcumb/bg.jpg') }}" style="background-image: url('{{ get_asset_url('../images/breadcumb/bg.jpg') }}');">
-        <div class="container container-1617">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ew-breadcumb-box">
-                        <div class="ew-breadcumb-text">
-                            <h2>Our Blog</h2>
-                            <span> Home <strong><i class="fa-sharp fa-regular fa-angles-right"></i> Our Blog</strong> </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ew-breadcumb-shape">
-            <img src="{{ get_asset_url('../images/breadcumb/shape.png') }}" alt="shape">
-        </div>
-    </section>
-    <!-- Breadcumb Area End -->
+    {# Breadcrumb Banner Module #}
+    {% module "blog_breadcrumb" path="../modules/breadcrumb.module" label="Breadcrumb Banner", title="Our Blog", current_page_title="Our Blog" %}
 
     <!-- Blog Area Start -->
     <section class="ew-blog-3-area pt-130 pb-130">
@@ -53,7 +36,7 @@ dipak
                                     {% endif %}
                                     <span>{{ content.publish_date|datetimeformat('%b %e, %Y') }}</span>
                                     <h3><a class="underline-black" href="{{ content.absolute_url }}">{{ content.name }}</a></h3>
-                                    <span><a href="{{ content.absolute_url }}">Read more <i class="fa-sharp fa-regular fa-arrow-right"></i></a></span>
+                                    <span><a href="{{ content.absolute_url }}">Read more <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H13M13 7L7 1M13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></span>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +50,7 @@ dipak
                                     <span class="project-dot">Branding</span>
                                     <span>March 24, 2026</span>
                                     <h3><a class="underline-black" href="#">Reveal business opportunities with our brand audit</a></h3>
-                                    <span><a href="#">Read more <i class="fa-sharp fa-regular fa-arrow-right"></i></a></span>
+                                    <span><a href="#">Read more <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H13M13 7L7 1M13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></span>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +63,7 @@ dipak
                                     <span class="project-dot">Marketing</span>
                                     <span>March 24, 2026</span>
                                     <h3><a class="underline-black" href="#">Future of Digital Marketing Trends for Business</a></h3>
-                                    <span><a href="#">Read more <i class="fa-sharp fa-regular fa-arrow-right"></i></a></span>
+                                    <span><a href="#">Read more <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H13M13 7L7 1M13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></span>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +76,7 @@ dipak
                                     <span class="project-dot">AI & Design</span>
                                     <span>March 24, 2026</span>
                                     <h3><a class="underline-black" href="#">Averix agency revolutionizes creative workflows</a></h3>
-                                    <span><a href="#">Read more <i class="fa-sharp fa-regular fa-arrow-right"></i></a></span>
+                                    <span><a href="#">Read more <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7H13M13 7L7 1M13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></span>
                                 </div>
                             </div>
                         </div>

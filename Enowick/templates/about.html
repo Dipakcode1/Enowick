@@ -10,25 +10,8 @@
 
 <main>
 
-    <!-- Breadcumb Area Start -->
-    <section class="ew-breadcumb-area pt-160 pb-100" data-background="{{ get_asset_url('../images/breadcumb/bg.jpg') }}" style="background-image: url('{{ get_asset_url('../images/breadcumb/bg.jpg') }}');">
-        <div class="container container-1617">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ew-breadcumb-box">
-                        <div class="ew-breadcumb-text">
-                            <h2>About Us</h2>
-                            <span> Home <strong><i class="fa-sharp fa-regular fa-angles-right"></i> About Us</strong> </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ew-breadcumb-shape">
-            <img src="{{ get_asset_url('../images/breadcumb/shape.png') }}" alt="shape">
-        </div>
-    </section>
-    <!-- Breadcumb Area End -->
+    {# Breadcrumb Banner Module #}
+    {% module "about_breadcrumb" path="../modules/breadcrumb.module" label="Breadcrumb Banner", title="About Us", current_page_title="About Us" %}
 
     <!-- About area start -->
     <section class="ew-about-area pt-130 pb-124">
@@ -87,7 +70,7 @@
                 <div class="col-lg-12">
                     <div class="ew-video-icon">
                         <div class="ew-video-icon-inner">
-                            <a class="popup-video ew-about-playbtn" href="https://www.youtube.com/watch?v=MLpWrANjFbI"><i class="fa-solid fa-play"></i></a>
+                            <a class="popup-video ew-about-playbtn" href="https://www.youtube.com/watch?v=MLpWrANjFbI"><svg width="18" height="20" viewBox="0 0 18 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M1 1.7L16.5 10L1 18.3V1.7Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></a>
                             <div class="ew-video-shape">
                                 <img class="rotate2" src="{{ get_asset_url('../images/video/shape.png') }}" alt="shape">
                             </div>

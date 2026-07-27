@@ -52,7 +52,7 @@
 		siSideMenu.empty().append(siMenuWrap);
 		if ($(siSideMenu).find('.submenu, .mega-menu, .ew-submenu').length != 0) {
 		   $(siSideMenu).find('.submenu, .mega-menu, .ew-submenu').parent().append
-		   ('<button class="ew-menu-close" type="button"><i class="fa-solid fa-plus"></i></button>');
+		   ('<button class="ew-menu-close" type="button"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 1V11M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>');
 		}
 		let sideMenuList = $('.ew-offcanvas-menu nav ul li button.ew-menu-close, .ew-offcanvas-menu nav ul li.has-dropdown > a');
 		$(sideMenuList).on('click', function (e) {

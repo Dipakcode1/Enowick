@@ -1,7 +1,10 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
 @import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css");
 @import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css");
 @import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css");
 @import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css");
+
 
 /*-----------------------------------------------------------------------------------
 
@@ -147,8 +150,8 @@ li,
   /**
   @font family declaration
   */
-  --ew-ff-body: "GeneralSans", sans-serif;
-  --ew-ff-heading: "GeneralSans", sans-serif;
+  --ew-ff-body: "General Sans", "GeneralSans", "Inter", sans-serif;
+  --ew-ff-heading: "General Sans", "GeneralSans", "Plus Jakarta Sans", sans-serif;
   --ew-ff-fontawesome: "Font Awesome 6 Pro";
 
 body, button, input, select, textarea, p, h1, h2, h3, h4, h5, h6, a, span {
