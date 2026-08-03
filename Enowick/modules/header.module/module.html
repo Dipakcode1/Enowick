@@ -1,9 +1,9 @@
-{% set logo_src = module.logo_image.src if module.logo_image.src else (brand_settings.logo.src if brand_settings.logo.src else get_asset_url('../../images/logo/logo-white.png')) %}
+{% set logo_src = module.logo_image.src if module.logo_image.src else (brand_settings.logo.src if brand_settings.logo.src else get_asset_url('../../images/logo/mindlayer-logo.png')) %}
 {% set logo_alt = module.logo_image.alt if module.logo_image.alt else 'logo' %}
 {% set logo_href = module.logo_url.url.href if (module.logo_url.url and module.logo_url.url.href) else '/' %}
 
-{% set offcanvas_logo_1 = module.offcanvas_logo_dark.src if module.offcanvas_logo_dark.src else get_asset_url('../../images/logo/logo-black.png') %}
-{% set offcanvas_logo_2 = module.offcanvas_logo_light.src if module.offcanvas_logo_light.src else get_asset_url('../../images/logo/logo-white.png') %}
+{% set offcanvas_logo_1 = module.offcanvas_logo_dark.src if module.offcanvas_logo_dark.src else get_asset_url('../../images/logo/mindlayer-logo.png') %}
+{% set offcanvas_logo_2 = module.offcanvas_logo_light.src if module.offcanvas_logo_light.src else get_asset_url('../../images/logo/mindlayer-logo.png') %}
 
 {% set nav = menu(module.menu, "site_root").children if module.menu else [] %}
 
@@ -177,12 +177,12 @@
                     {% if module.offcanvas_phone %}
                         <li><a href="tel:{{ module.offcanvas_phone|replace(' ', '') }}">{{ module.offcanvas_phone }}</a></li>
                     {% else %}
-                        <li><a href="tel:+8801643837728">+880 1643-837728</a></li>
+                        <li><a href="tel:+919641866113">+91 96418-66113</a></li>
                     {% endif %}
                     {% if module.offcanvas_email %}
                         <li><a href="mailto:{{ module.offcanvas_email }}">{{ module.offcanvas_email }}</a></li>
                     {% else %}
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li><a href="mailto:info@codepoetry.in">info@codepoetry.in</a></li>
                     {% endif %}
                 </ul>
             </div>

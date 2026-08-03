@@ -45,7 +45,7 @@
     "name": "contact_info_text",
     "label": "Contact Info Text",
     "type": "richtext",
-    "default": "<p>hello@example.com <br> +880 1643-837728</p>"
+    "default": "<p>info@codepoetry.in <br> +91 96418-66113</p>"
   },
   {
     "id": "contact_info_icon",

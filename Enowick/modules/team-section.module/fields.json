@@ -1,0 +1,362 @@
+[
+  {
+    "id": "subtitle",
+    "name": "subtitle",
+    "label": "Section Subtitle",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Who We Are"
+  },
+  {
+    "id": "heading",
+    "name": "heading",
+    "label": "Section Heading",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Creative Team Members"
+  },
+  {
+    "id": "team_members",
+    "name": "team_members",
+    "label": "Team Members",
+    "required": false,
+    "locked": false,
+    "occurrence": {
+      "min": 1,
+      "max": 20,
+      "default": 4,
+      "sorting_label_format": "Member: {{ member_name }}"
+    },
+    "type": "group",
+    "children": [
+      {
+        "id": "member_name",
+        "name": "member_name",
+        "label": "Member Name",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Abu Talha"
+      },
+      {
+        "id": "designation",
+        "name": "designation",
+        "label": "Designation / Role",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Web Developer"
+      },
+      {
+        "id": "image",
+        "name": "image",
+        "label": "Member Photo",
+        "required": false,
+        "locked": false,
+        "type": "image",
+        "default": {
+          "src": "",
+          "alt": "team member",
+          "loading": "lazy"
+        }
+      },
+      {
+        "id": "link_url",
+        "name": "link_url",
+        "label": "Member Details Link",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "/team-details"
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "show_social_links",
+        "name": "show_social_links",
+        "label": "Display Social Media Links",
+        "required": false,
+        "locked": false,
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "id": "twitter_url",
+        "name": "twitter_url",
+        "label": "Twitter / X Link",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "instagram_url",
+        "name": "instagram_url",
+        "label": "Instagram Link",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "linkedin_url",
+        "name": "linkedin_url",
+        "label": "LinkedIn Link",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "facebook_url",
+        "name": "facebook_url",
+        "label": "Facebook Link (Optional)",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": ""
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "github_url",
+        "name": "github_url",
+        "label": "GitHub Link (Optional)",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": ""
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "youtube_url",
+        "name": "youtube_url",
+        "label": "YouTube Link (Optional)",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": ""
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "id": "dribbble_url",
+        "name": "dribbble_url",
+        "label": "Dribbble Link (Optional)",
+        "required": false,
+        "locked": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": ""
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      }
+    ],
+    "default": [
+      {
+        "member_name": "Abu Talha",
+        "designation": "Web Developer",
+        "image": {
+          "src": "",
+          "alt": "Abu Talha"
+        },
+        "link_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "/team-details"
+          }
+        },
+        "show_social_links": true,
+        "twitter_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "instagram_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "linkedin_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        }
+      },
+      {
+        "member_name": "Jinnira Alam",
+        "designation": "UI/UX Designer",
+        "image": {
+          "src": "",
+          "alt": "Jinnira Alam"
+        },
+        "link_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "/team-details"
+          }
+        },
+        "show_social_links": true,
+        "twitter_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "instagram_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "linkedin_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        }
+      },
+      {
+        "member_name": "Saad Alam",
+        "designation": "Lead Developer",
+        "image": {
+          "src": "",
+          "alt": "Saad Alam"
+        },
+        "link_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "/team-details"
+          }
+        },
+        "show_social_links": true,
+        "twitter_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "instagram_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "linkedin_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        }
+      },
+      {
+        "member_name": "Shirin Sultana",
+        "designation": "Creative Director",
+        "image": {
+          "src": "",
+          "alt": "Shirin Sultana"
+        },
+        "link_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "/team-details"
+          }
+        },
+        "show_social_links": true,
+        "twitter_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "instagram_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        },
+        "linkedin_url": {
+          "url": {
+            "content_id": null,
+            "type": "EXTERNAL",
+            "href": "#"
+          }
+        }
+      }
+    ]
+  }
+]

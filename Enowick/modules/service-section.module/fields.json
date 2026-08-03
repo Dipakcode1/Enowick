@@ -129,6 +129,16 @@
             "href": "/service"
           }
         }
+      },
+      {
+        "number": "004",
+        "title": "3D Design and Rendering",
+        "description": "Creating photorealistic 3D models, architectural visualizations, and immersive digital renderings that bring your concepts to life.",
+        "link_url": {
+          "url": {
+            "href": "/service"
+          }
+        }
       }
     ]
   }

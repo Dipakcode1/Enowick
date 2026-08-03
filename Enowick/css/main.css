@@ -10532,6 +10532,67 @@ body.ew-magic-cursor #magic-cursor {
   margin-left: 3px;
 }
 
+/* Floating Action Buttons */
+.cps-get-in-touch {
+  background: #ffffff;
+  border-radius: 6px;
+  bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .08);
+  height: 32px;
+  padding: 5px;
+  position: fixed;
+  width: 145px;
+  z-index: 999999;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111111 !important;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.cps-get-in-touch:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #111111 !important;
+}
+
+.cps-get-in-touch.cps-whatsapp {
+  left: 10px;
+  bottom: 10px;
+  color: #25D366 !important;
+}
+.cps-get-in-touch.cps-whatsapp i {
+  font-size: 16px;
+  color: #25D366;
+}
+
+.cps-get-in-touch.cps-call {
+  right: 10px;
+  bottom: 10px;
+  color: #111111 !important;
+}
+.cps-get-in-touch.cps-call i {
+  font-size: 13px;
+  color: #111111;
+}
+
+@media (max-width: 575px) {
+  .cps-get-in-touch.cps-whatsapp {
+    left: 10px;
+    bottom: 10px;
+  }
+  .cps-get-in-touch.cps-call {
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+
 
 
 

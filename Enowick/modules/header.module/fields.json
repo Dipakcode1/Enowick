@@ -96,7 +96,7 @@
     "required": false,
     "locked": false,
     "type": "text",
-    "default": "+880 1643-837728"
+    "default": "+91 96418-66113"
   },
   {
     "id": "offcanvas_email",
@@ -105,7 +105,7 @@
     "required": false,
     "locked": false,
     "type": "text",
-    "default": "info@example.com"
+    "default": "info@codepoetry.in"
   },
   {
     "id": "gallery_images",

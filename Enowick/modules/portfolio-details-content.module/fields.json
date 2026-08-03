@@ -286,7 +286,7 @@
     "required": false,
     "locked": false,
     "type": "text",
-    "default": "+880 1643-837728"
+    "default": "+91 96418-66113"
   },
   {
     "id": "email_heading",
@@ -304,6 +304,6 @@
     "required": false,
     "locked": false,
     "type": "text",
-    "default": "info@example.com"
+    "default": "info@codepoetry.in"
   }
 ]

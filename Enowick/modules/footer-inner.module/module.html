@@ -1,7 +1,7 @@
 {% set main_nav = menu(module.menu, "site_root").children if module.menu else [] %}
 {% set support_nav = menu(module.support_menu, "site_root").children if module.support_menu else [] %}
 {% set bg_url = module.background_image.src if (module.background_image and module.background_image.src) else get_asset_url('../../images/footer/bg.jpg') %}
-{% set logo_url = module.logo.src if (module.logo and module.logo.src) else get_asset_url('../../images/logo/logo-white.png') %}
+{% set logo_url = module.logo.src if (module.logo and module.logo.src) else get_asset_url('../../images/logo/mindlayer-logo.png') %}
 
 <section class="ew-footer-area ew-background pt-127" data-background="{{ bg_url }}" style="background-image: url('{{ bg_url }}');">
     <div class="container container-1588">
@@ -70,7 +70,7 @@
                     <h2>Contact Us</h2>
                     <ul>
                         <li class="footer-color"><a href="#">Call Us Directly</a></li>
-                        <li><a href="tel:{{ module.phone_number or '8884567890' }}">{{ module.phone_number or '888 456 7890' }}</a></li>
+                        <li><a href="tel:{{ (module.phone_number or '+91 96418-66113')|replace(' ', '') }}">{{ module.phone_number or '+91 96418-66113' }}</a></li>
                         <li class="footer-color"><a href="#">Location</a></li>
                         <li><a href="#">{{ module.location_address or '410 Sandtown, California 94001, USA' }}</a></li>
                     </ul>

@@ -37,14 +37,14 @@
     "name": "email_address",
     "label": "Contact Email",
     "type": "text",
-    "default": "Info@example.com"
+    "default": "info@codepoetry.in"
   },
   {
     "id": "phone_number",
     "name": "phone_number",
     "label": "Phone Number",
     "type": "text",
-    "default": "888 456 7890"
+    "default": "+91 96418-66113"
   },
   {
     "id": "location_address",
